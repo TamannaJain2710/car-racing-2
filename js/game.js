@@ -95,7 +95,7 @@ player.update();
     }
    
 
-if (player.distance >= 3680 && passedFinish == false){
+if (player.distance >= 3600 && passedFinish == false){
    Player.updateFinishedPlayers()
    player.rank = finishedPlayers
    player.update()
